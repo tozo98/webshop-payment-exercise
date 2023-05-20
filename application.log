@@ -1,0 +1,5 @@
+2023-05-20T11:18:47.918+02:00  INFO 9788 --- [main] .o.i.w.WebshopPaymentExerciseApplication : Starting WebshopPaymentExerciseApplication using Java 17 with PID 9788 (D:\otp\final\webshop-payment-exercise\target\classes started by Zoli in D:\otp\final\webshop-payment-exercise)
+2023-05-20T11:18:47.924+02:00  INFO 9788 --- [main] .o.i.w.WebshopPaymentExerciseApplication : No active profile set, falling back to 1 default profile: "default"
+2023-05-20T11:18:49.753+02:00  INFO 9788 --- [main] .o.i.w.WebshopPaymentExerciseApplication : Started WebshopPaymentExerciseApplication in 2.894 seconds (process running for 3.849)
+2023-05-20T11:18:49.803+02:00 ERROR 9788 --- [main] c.o.i.w.reader.PaymentReader             : Invalid payment: Payment(webshopId=WS02, customerId=A03, type=CARD, value=2900, accountNumber=6757619297057019, cardNumber=, date=2021.01.21)
+2023-05-20T11:18:49.816+02:00 ERROR 9788 --- [main] c.o.i.w.report.ReportCreatorService      : Payment has unknown Ids: Payment(webshopId=WS02, customerId=A04, type=CARD, value=22000, accountNumber=, cardNumber=6757619297057019, date=2021.01.22)
